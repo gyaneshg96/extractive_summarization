@@ -1,9 +1,11 @@
-# extractive_summarization
-## Some ways to perform extractive summarization
+# Extractive Summarization
 ## We use 2 particular methods
 i) genisim summarizer (Text rank O-25 metric)
 ii) pytextrank summarizer (Text rank with jaccard metric)
 iii) clustering summarizer (uses K Means with skipthoughts vectors)
+
+## Download Dependencies
+pip install -r requirements.txt
 
 ## For skipthoughts
 Download the pickle files from the sources, as 
