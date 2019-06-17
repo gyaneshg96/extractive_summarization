@@ -21,11 +21,12 @@ wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz.pkl <br/>
 And set the paths in 'skipthoughts.py' accordingly
 
 ## Get the story from the files
-
-`from preprocessing import process_text`
-`story, summary = process_text(filename)`
-
+```
+from preprocessing import process_text
+story, summary = process_text(filename)
+```
 ## Use libraries based on the summarizer
-
-`from models.gensim_model import gensim_method`
-`summary = gensim_method(story, ratio)`
+```
+from models.gensim_model import gensim_method
+summary = gensim_method(story, ratio)```
+```
